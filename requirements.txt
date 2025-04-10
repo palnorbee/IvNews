@@ -5,6 +5,7 @@ ConfigParser
 contextlib2
 cryptography
 Cython
+feedparser
 dl
 docutils
 HTMLParser
