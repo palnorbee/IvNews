@@ -1,6 +1,6 @@
 asgiref
 attr
-cchardet
+cchardet aiodns
 ConfigParser
 contextlib2
 cryptography
