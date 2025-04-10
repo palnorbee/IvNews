@@ -11,6 +11,7 @@ HTMLParser
 ipython
 ipywidgets
 pyjnius
+Flask
 keyring
 lockfile
 mock
