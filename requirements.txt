@@ -1,16 +1,15 @@
+Cython
 asgiref
 attr
 cchardet
 ConfigParser
 contextlib2
 cryptography
-Cython
 dl
 docutils
 HTMLParser
 ipython
 ipywidgets
-jnius
 keyring
 lockfile
 mock
@@ -29,3 +28,4 @@ truststore
 urllib3_secure_extra
 watchdog
 xmlrpclib
+jnius
