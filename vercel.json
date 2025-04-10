@@ -1,14 +1,14 @@
 {
      "builds": [
          {
-             "src": "/ivnews.py",
+             "src": "ivnews.py",
              "use": "@vercel/python"
          }
      ],
      "routes": [
          {
              "src": "/(.*)",
-             "dest": "/ivnews.py"
+             "dest": "ivnews.py"
          }
      ]
  }
