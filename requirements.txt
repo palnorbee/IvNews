@@ -26,4 +26,3 @@ trove_classifiers
 truststore
 urllib3_secure_extra
 watchdog
-xmlrpclib
