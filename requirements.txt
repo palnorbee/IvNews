@@ -1,6 +1,6 @@
 asgiref
 attr
-cchardet==2.1.7
+chardet
 ConfigParser
 contextlib2
 cryptography
