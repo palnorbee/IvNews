@@ -1,0 +1,82 @@
+@font-face{
+    font-family: TitleBig;
+    src: url('/static/woodblock.otf');
+    font-weight: bold;}
+
+@font-face{
+    font-family: TitleSmall;
+    src: url('/static/LEMONMILK-Regular.otf');
+    }
+
+a {
+  color: yellow;
+  font-family: TitleBig;
+  text-align:center;
+  display: inline-block;
+  text-decoration:none;
+  display:block;
+  font-size:110px;
+  transform: perspective(600px) rotateX(10deg) scaleY(1.5);
+  }
+
+p {
+  color: yellow;
+  font-family: TitleSmall;
+  text-align:center;
+  text-decoration:none;
+  display:block;
+  font-size:30px;
+  }
+
+.refhtml{
+a {
+  color: yellow;
+  font-family: TitleSmall;
+  text-align:center;
+  font-size:22px;
+  display:block;
+  font-weight:normal;
+  font-style:normal;
+  }
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.blood-svg{
+  width: 50vmax;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+
+}
+
+.blood-splash-2 {
+  width: 70vmax;
+  position: absolute;
+  top: -30%;
+  left: 0%;
+  transform: rotateX(110deg);
+}
+
+.blood-splash-3 {
+  width: 60vmax;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: rotateX(120deg);
+}
+.text-focus-in{animation:text-focus-in .01ms linear 2s both;}
+@keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
+body {background-image: url('/static/inv.jpg')}
+
+
+
