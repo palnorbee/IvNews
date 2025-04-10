@@ -1,5 +1,10 @@
+
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/templates/home" }
-  ]
+    "version": 2,
+    "builds": [
+        {"src": "ivnews.py", "use": "@vercel/python"}
+    ],
+    "routes": [
+        {"src": "/(.*)", "dest": "ivnews.py"}
+    ]
 }
