@@ -14,7 +14,7 @@ a {
   text-align:center;
   display: inline-block;
   text-decoration:none;
-  display:inline-block;
+  display:block;
   font-size:16vh;;
   transform: perspective(600px) rotateX(10deg) scaleY(1.5);
   }
