@@ -8,15 +8,17 @@
     src: url('/static/LEMONMILK-Regular.otf');
     }
 
+@media only screen and (max-width: 768px) {
+
 a {
   color: yellow;
   font-family: TitleBig;
   text-align:center;
   display: inline-block;
   text-decoration:none;
-  display:inline-block;
-  font-size:16vh;;
-  transform: perspective(600px) rotateX(10deg) scaleY(1.5);
+  display:block;
+  font-size: 4vh;
+  transform: perspective(120px) rotateX(10deg) scaleY(1.5);
   }
 
 p {
@@ -25,7 +27,7 @@ p {
   text-align:center;
   text-decoration:none;
   display:block;
-  font-size:30px;
+  font-size:2vh;
   }
 
 .refhtml{
@@ -33,20 +35,17 @@ a {
   color: yellow;
   font-family: TitleSmall;
   text-align:center;
-  font-size:22px;
+  font-size:1.5vh;
   display:block;
   font-weight:normal;
   font-style:normal;
   }
 }
-
 .container {
   height: 115vh;
-  width:100%;
   display: flex;
   align-items: center;
   justify-content: center;
-
 
 }
 .blood-svg{
@@ -62,7 +61,7 @@ a {
 .blood-splash-2 {
   width: 70vmax;
   position: absolute;
-  top: -30%;
+  top: -60%;
   left: 0%;
   transform: rotateX(110deg);
 }
@@ -75,8 +74,8 @@ a {
   transform: rotateX(120deg);
 }
 .text-focus-in{animation:text-focus-in .01ms linear 2s both;}
-@keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
+@keyframes text-focus-in{0%{filter:blur(1px);opacity:0}100%{filter:blur(0);opacity:1}}
 body {background-image: url('/static/inv.jpg')}
-
+}
 
 
