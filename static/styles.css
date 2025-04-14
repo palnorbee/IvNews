@@ -28,18 +28,6 @@ p {
   font-size:30px;
   }
 
-.refhtml{
-a {
-  color: yellow;
-  font-family: TitleSmall;
-  text-align:center;
-  font-size:22px;
-  display:block;
-  font-weight:normal;
-  font-style:normal;
-  }
-}
-
 .container {
   height: 115vh;
   width:100%;
