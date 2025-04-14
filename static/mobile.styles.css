@@ -30,16 +30,6 @@ p {
   font-size:2vh;
   }
 
-.refhtml{
-a {
-  color: yellow;
-  font-family: TitleSmall;
-  text-align:center;
-  font-size:1.5vh;
-  display:block;
-  font-weight:normal;
-  font-style:normal;
-  }
 }
 .container {
   height: 115vh;
