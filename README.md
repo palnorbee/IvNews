@@ -1,4 +1,4 @@
-<h1 align="center">IV NEWS</h1>
+<h1 align="center">IV-NEWS</h1>
 <h2>A fun, bite sized project made with Flask.</h1>
 <h3>What does it do?</h3>
 <p>The site gives you a BBCNEWS headline and "Invinciblifies" it.</p>
